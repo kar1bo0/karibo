@@ -1,0 +1,70 @@
+body{
+    margin: 0
+}
+
+h1{
+    padding: 30px;
+    margin: 0px;
+}
+
+.text{
+    margin: 0;
+    padding: 20px;
+}
+
+
+header { /*чтобы не забыть что такое хидер я для себяпишу что это шапка*/
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(66, 54%, 69%);text-align: center;font-size: 30px;
+    background-image: url(https://static.wikia.nocookie.net/gbp/images/b/b2/Hougoumont_Loading_Screen.png/revision/latest/scale-to-width-down/1000?cb=20240422160538);
+    font-family: serif;
+    text-shadow: 1px 5px 20px;
+    
+}
+
+.right{
+    width: 50%
+}
+ 
+.left{
+
+     width: 50%;
+
+}
+
+.right{
+    width: 50%;
+}
+
+
+
+main{
+    height: 500px; 
+    background-color: hwb(2 4% 81%);
+    color: hsl(66, 54%, 69%);text-align: center;font-size: 30px;
+    font-family: serif;
+    text-shadow: 1px 5px 20px;
+    display: flex;
+}
+
+footer{
+    height: 20000px;
+    background-color: hsl(2, 23%, 47%);
+    color: hwb(0 11% 60%);text-align: center;font-size:  30px; 
+    font-family: serif;
+    text-overflow: clip;
+    padding: 20px;
+    justify-content: center;
+    
+}
+
+.social img{
+width: 200px;
+}
+
+.social{
+   list-style: none;
+   display: flex;
+    justify-content: center
+   
+}
